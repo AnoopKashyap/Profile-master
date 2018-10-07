@@ -1,0 +1,20 @@
+
+.word_size{
+  font-size: 12px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+h2{
+  text-align: center;
+}
+
+.subheading{
+  text-align: center;
+}
+
+.dev-icons{
+  padding:45px;
+
+}
