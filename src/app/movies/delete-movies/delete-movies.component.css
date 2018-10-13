@@ -1,0 +1,18 @@
+
+p{
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgba(0, 0, 0, 0.466);
+    padding:25px;
+    padding-bottom:35px;
+  }
+  
+  h2{
+    text-align: center;
+    padding-top:45px;
+  }
+  
+  .panel{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.767);
+  }
