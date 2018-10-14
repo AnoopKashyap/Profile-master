@@ -17,6 +17,8 @@ export class MoviesComponent {
     this.count=1;
     
     console.log("Count", this.count);
+    console.log("Count", this.count);
+
   }
 }
 
