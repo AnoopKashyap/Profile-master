@@ -1,0 +1,23 @@
+.a{
+    transform: rotate(-90deg);
+}
+
+p{
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgba(0, 0, 0, 0.603);
+    padding:25px;
+  }
+  
+h2{
+    text-align: center;
+  }
+
+
+.pics{
+    padding:25px;
+}
+
+.Inside-tab{
+
+}

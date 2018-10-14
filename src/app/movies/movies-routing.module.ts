@@ -31,7 +31,7 @@ const movieRoutes: Routes = [
 		   	component: RealmeComponent
 			},
 			{
-	      path: 'vision',
+	      path: 'interests',
 		   	component: VisionComponent
 			},
 			{

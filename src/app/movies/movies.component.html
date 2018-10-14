@@ -1,13 +1,13 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 
-  <body id="page-top" >
+  <body id="page-top" background="src/img/bkg.jpg">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Anoop Kashyap</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="src/img/profile1.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="src/img/IMAG3404.jpg" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,15 +24,16 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" routerLink="/home/academics" routerLinkActive="active">Education</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" routerLink="/home/realme" routerLinkActive="active">Real Me</a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" routerLink="/home/vision" routerLinkActive="active">Vision</a>
+            <a class="nav-link js-scroll-trigger" routerLink="/home/interests" routerLinkActive="active">Interests</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" routerLink="/home/connect" routerLinkActive="active">Connect</a>
           </li>
+          <li class="glyphicon glyphicon-home"></li>
         </ul>
       </div>
     </nav>
@@ -40,7 +41,7 @@
     <router-outlet></router-outlet>
 
 
-    
+    <div *ngIf="count==1">
     <div class="container-fluid p-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
@@ -60,6 +61,7 @@
       </section>
 </div>
 
+</div>
 
       <!-- <hr class="m-0">
 

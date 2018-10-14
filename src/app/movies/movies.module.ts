@@ -11,7 +11,10 @@ import { VisionComponent } from './vision/vision.component';
 import { ConnectComponent } from './connect/connect.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatExpansionModule } from '@angular/material/expansion';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -20,7 +23,10 @@ import {MatCardModule} from '@angular/material/card';
     MatExpansionModule,
     CommonModule,
     MoviesRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatTabsModule,
+    MatTooltipModule,
+    MatIconModule
   ],
   declarations: [
     MoviesComponent,

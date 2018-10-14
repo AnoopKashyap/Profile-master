@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   templateUrl:"/movies.component.html"
@@ -16,7 +17,6 @@ export class MoviesComponent {
   {
     this.count=1;
     
-    console.log("Count", this.count);
     console.log("Count", this.count);
 
   }
