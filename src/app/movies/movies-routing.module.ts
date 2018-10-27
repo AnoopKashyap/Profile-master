@@ -44,6 +44,7 @@ const movieRoutes: Routes = [
 
 @NgModule({
   imports: [ RouterModule.forChild(movieRoutes)],
-  exports: [ RouterModule ]
+	exports: [ RouterModule ],
+
 })
 export class MoviesRoutingModule{ }

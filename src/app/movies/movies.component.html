@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <body id="page-top" background="src/img/bkg.jpg">
 
@@ -33,12 +33,18 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" routerLink="/home/connect" routerLinkActive="active">Connect</a>
           </li>
-          <li class="glyphicon glyphicon-home"></li>
+
+          <span class="fa fa-info-circle" style="color: rgb(7, 5, 5)" data-toggle="tooltip" title={{credits}} aria-hidden="true"></span>
+
         </ul>
       </div>
     </nav>
 
-    <router-outlet></router-outlet>
+    <main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
+      <router-outlet #o="outlet"></router-outlet>
+    </main>
+    
+    <!-- <router-outlet></router-outlet> -->
 
 
     <div *ngIf="count==1">
