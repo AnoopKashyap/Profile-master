@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
+import { fadeAnimation } from './animations';
 
 @Component({
   selector: 'app-root',
-  template:`<router-outlet></router-outlet>`
+  templateUrl:'app.component.html',
+  // styleUrls:['/app.component.css'],
+  animations: [fadeAnimation]
+
 })
 export class AppComponent {
   title = 'app';
+  credits="Developed by Anoop Kashyap in Angular 6"
+
 }
