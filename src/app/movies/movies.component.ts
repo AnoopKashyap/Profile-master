@@ -5,7 +5,7 @@ import { fadeAnimation } from '../animations';
 
 
 @Component({
-  templateUrl:"/movies.component.html",
+  templateUrl:"./movies.component.html",
   animations: [fadeAnimation] // register the animation
 
 })
