@@ -5,7 +5,6 @@ import { MoviesComponent }  from './movies/movies.component';
 import { AddMoviesComponent }  from './movies/add-movies/add-movies.component';
 import { DeleteMoviesComponent }  from './movies/delete-movies/delete-movies.component';
 import { AcademicsComponent }  from './movies/academics/academics.component';
-import { RealmeComponent } from './movies/realme/realme.component';
 import { VisionComponent } from './movies/vision/vision.component';
 import { ConnectComponent } from './movies/connect/connect.component';
 
@@ -33,10 +32,6 @@ const routes: Routes = [
         {
                 path: 'academics',
                 component: AcademicsComponent
-        },
-        {
-                path: 'realme',
-                component: RealmeComponent
         },
         {
                 path: 'interests',
